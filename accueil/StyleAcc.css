@@ -1,0 +1,164 @@
+  /* completer */
+  
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        /* l'entête */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        /* navigation */
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+       a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .actif {
+            text-decoration: none;
+            border-bottom: 2px solid blue;
+        }
+        
+        /* gerer les <div> */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 100px;
+            color: black;
+        }
+        .profile {
+            background-color: #fff;
+            color: #333;
+            width: 45%;
+            height: 135px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            
+        }
+
+        .profile2 {
+            background-color: #fff;
+            color: #333;
+            width: 45%;
+            height: 135px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            
+        }
+
+        .plusgrand {
+            height: 250px;
+        }
+
+        .voirplus:hover {
+            cursor: pointer;
+            transform: scale(0.95);
+            transition: transform 0.3s ease;
+        }
+
+        .voirplus {
+            border: 2px solid darkblue ;
+            background-color:darkblue ;
+            color:gold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8%;
+        }
+        
+        
+        .profile h2 {
+            color: #333;
+        }
+        .profile p {
+            color: #666;
+        }
+        .profile a {
+            display: block;
+            margin-top: 10px;
+            color: #007bff;
+            text-decoration: none;
+            
+        }
+         .a:hover {
+            text-decoration: underline;
+
+        } 
+
+        .entre {
+            text-align: center;
+        }
+        
+        .a {
+            color:rebeccapurple;
+        } 
+        
+
+        .container2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 10px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+            width: 15%;
+            
+        }
+
+        .background-button {
+            background-color: blue;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.853);
+            
+            font-size: 15px;
+            width: 35%;
+            padding: 15px;
+            border-radius: 25px;
+
+            align-items: center;
+            justify-content: center;
+
+            transition: transform 0.3s;
+            cursor: grab;
+        }
+
+        .background-button:hover {
+            transform: scale(1.2);
+
+        }
+
+        .image {
+            width: 100px;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+        
+

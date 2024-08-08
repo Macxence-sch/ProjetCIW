@@ -1,0 +1,70 @@
+
+ 
+ header {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+ }
+ 
+ 
+ .haut {
+    display: flex;
+    
+    color: white;
+    background-color: #393939;
+  }
+
+  .haut h1 {
+    font-family: "Crimson Text", "freeserif", serif;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 0;
+  }
+  
+  .toptext {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Assure que .toptext prend toute la hauteur disponible */
+  }
+
+  .nav {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .haut img {
+    width: 60%;
+    
+  }
+  
+  header h1 {
+    font-family: "Crimson Text", "freeserif", serif;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 0;
+  }
+  
+  header a {
+    color: white;
+    margin-top: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .bar {
+    width: 100px;
+    height: 100px;
+  }
+
+  
+  .actif {
+    border-bottom: 4px solid #FFBC23;
+  }
+
+
+  a:hover {
+    cursor: pointer;
+  }

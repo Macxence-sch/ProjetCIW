@@ -1,0 +1,101 @@
+
+  
+/* Style général du corps */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style de la navigation */
+nav {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style des liens */
+a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Style pour les liens actifs */
+.actif {
+    text-decoration: none;
+    border-bottom: 2px solid blue;
+}
+
+/* Style des conteneurs */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+/* Style des profils */
+.profile {
+    background-color: #fff;
+    width: 90%;
+    padding: 34px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Style pour les éléments en rouge */
+.red {
+    color: red;
+}
+
+/* Style pour le texte centré */
+.p1 {
+    text-align: center;
+}
+
+/* Style pour les conteneurs d'adresse */
+.containeradresse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Style des images */
+.image2 {
+    width: 100px;
+    height: auto; 
+}
+
+/* Style pour les titres de profil */
+.profile h2 {
+    color: red;
+    text-align: center;
+}
+
+/* Style pour les paragraphes de profil */
+.profile p {
+    color: #666;
+}
+
+/* Style pour le pied de page */
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+

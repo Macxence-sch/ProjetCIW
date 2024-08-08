@@ -1,0 +1,279 @@
+
+    /* Réinitialisation des styles de base */
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(46, 93, 150);
+        color: #fff;
+        text-align: center;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    /* Barre de navigation */
+    .top {
+        display: flex;
+        position: absolute;
+        width: 100%;  
+        
+    }
+    
+    /* Titre de la barre de navigation */
+    .navettitre {
+        background-color: rgba(0, 0, 0, 0);
+        width: 100%;  
+        font-size: 150%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        color: #FDB927;
+        transition: background-color 0.6s ease;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    /* Tableau des titres */
+    .tableautitre {
+        width: 99%;
+
+    }
+    
+    /* Liens dans la page */
+    a {
+        font-size: 85%;
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline;
+    }
+    
+    /* Effet survol sur les liens */
+    a:hover {
+        color:#d5c31e;
+    }
+    
+    /* Effet survol sur la barre de navigation */
+    .navettitre:hover {
+        background-color: rgba(0, 0, 0, 0.75);
+        color: #fff;
+    }
+    
+    /* Logo du drapeau */
+    .logodrapeau {
+        width: 25px;
+    }
+    
+    /* Style pour élément actif */
+    .actif {
+        color: #1D428A;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    /* Conteneur vidéo */
+    .videocontainer {
+        display: flex;
+        justify-content: center;
+    }
+    
+    /* Vidéo en arrière-plan */
+    .video-background {
+        margin-top: 225px;
+        width: 101%;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 49.5%;
+        transform: translate(-50%, -50%);
+        z-index: -1; 
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+    }
+    
+    /* Titre du sommaire */
+    .titresom{
+        display: flex;
+        justify-content: center;
+        margin-top: 690px;
+        font-family:'Times New Roman', Times, serif;
+        text-align: center;
+        background-color: #041E42;
+        color: white;
+        height: 80px;
+    }
+    
+    /* Contenu du sommaire */
+    .contenuesommaire {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #041E42;
+    }
+    
+    /* Section du sommaire */
+    .sommaire {
+        left: 15%;
+        background-color: #FDB927;
+        text-align: left;
+        border-radius: 20px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        width: 45%;
+    }
+    
+    /* Style pour les liens du sommaire */
+    .ecritsommaire {
+        text-decoration: none;
+    }
+    
+    /* Effet survol sur les liens du sommaire */
+    .ecritsommaire:hover {
+        color: #1D428A;
+    }
+    
+    /* Titre en blanc */
+    .h2blanc {
+        color: white;
+        font-family:'Times New Roman', Times, serif; 
+        font-size: 30px;
+    }
+    
+    /* Section de présentation */
+    #lanbapresentation {
+        background-color: rgb(46, 93, 150);
+        color: #fff;
+    }
+    
+    /* Section des règles */
+    #lesregles {
+        background-color: #041E42;
+    }
+    
+    /* Section générale */
+    #general {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    /* Texte bien justifié */
+    #textbien {
+        text-align: justify;
+        background-color: beige;
+    }
+    
+    /* Section des équipes */
+    #equipes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(46, 93, 150);
+        color: black;
+    }
+    
+    /* Section des joueurs */
+    #joueurs {
+        background-image: url('../image/terrain.jpg');
+        background-size: cover; 
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    /* Titre pour les joueurs */
+    .h2joueur {
+        color: black; 
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    /* Style pour les sous-titres */
+    h3 {
+        color: white;
+    }
+    
+    /* Nom du joueur */
+    .nomjoeur {
+        color: #1D428A;
+        font-size: 20px;
+    }
+    
+    /* Description */
+    .descri {
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    /* Image des joueurs */
+    .joeurImage {
+        width:400px;
+        height: 250px;
+        border-radius: 15%;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s;
+    }
+    
+    /* Effet survol sur les images des joueurs */
+    .joeurImage:hover {
+        transform: scale(1.1);
+    }
+    
+    /* Section des événements */
+    #evenements {
+        background-color: rgb(46, 93, 150);
+    }
+    
+    /* Style pour les cellules de tableau */
+    th, td {
+        width: 100px; 
+        height: 50px; 
+        text-align: center; 
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    /* Section des événements */
+    #evenements {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    /* Nom de l'événement */
+    .nomevenement {
+        color: #96840e;
+        font-size: 20px;
+    }
+    
+    /* Pied de page */
+    footer {
+        display: flex;
+        justify-content: center;
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    /* Contenu du pied de page */
+    .footercontent {
+        color: #fff;
+    }
+    
+    /* Logo du pied de page */
+    .logofooter {
+        width: 100px;
+        height: auto;
+    }
+    
+    /* Conteneur des logos de réseaux sociaux */
+    .containerlogo {
+        display: flex;
+        justify-content: center;
+    }
+    
+    /* Logo des réseaux sociaux */
+    .logoresaux {
+        width: 10%;
+        height: auto;
+        transition: transform 0.3s;
+    }
+    
+    /* Effet survol sur les logos des réseaux sociaux */
+    .logoresaux:hover {
+        transform: scale(1.1);
+    }

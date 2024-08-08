@@ -1,0 +1,96 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* Styles spécifiques */
+#calendar, #appointment-form, #album, #video {
+    margin-bottom: 2rem;
+}
+
+#calendar, #appointment-form {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+#appointment-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#appointment-form input[type="text"],
+#appointment-form input[type="email"],
+#appointment-form input[type="date"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+}
+
+#appointment-form button {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo-gallery img {
+    width: 200px;
+    margin: 0.5rem;
+}
+
+#video {
+    text-align: center;
+}
+/********************/
+.album {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .photos {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .photos img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  

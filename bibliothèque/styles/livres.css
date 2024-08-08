@@ -1,0 +1,78 @@
+header {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  background-color: #393939;
+}
+
+header h1 {
+  font-family: "Crimson Text", "freeserif", serif;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 0;
+}
+
+header a {
+  color: white;
+  padding: 0 20px 4px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;    
+}
+
+
+.couverture1 {
+  width: 40%;
+}
+
+.couverture2 {
+  width: 350%;
+}
+
+.couverture3 {
+  width: 850%;
+
+}
+
+
+header a.actif {
+  border-bottom: 4px solid #FFBC23;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+
+.toptext {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Assure que .toptext prend toute la hauteur disponible */
+}
+
+.titre {
+  margin-top: 2%;
+  display: flex;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contenue {
+  margin-left: 15%;
+}
+
+#critiques-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}

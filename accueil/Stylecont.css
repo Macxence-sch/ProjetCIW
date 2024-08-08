@@ -1,0 +1,160 @@
+/*boddy caractéristique */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/*header caractéristique */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+/*taille image*/
+.image {
+    width: 100px;
+    height: auto;
+}
+
+
+/*navigation class*/
+nav {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/*pour le a*/
+a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/*actif */
+.actif {
+    text-decoration: none;
+    border-bottom: 2px solid blue;
+}
+
+/*div du contenaire*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+/*div du profile*/
+.profile {
+    background-color: #fff;
+    width: 87%;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+    
+}
+/*class pour la couleur*/
+.red {
+    color: red;
+}
+/*allignement text*/
+.p1 {
+    text-align: center;
+}
+
+/*div des adresse mail uppa*/
+.containeradresse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+/*image taille*/
+.image {
+    width: 90px;width: 90px;
+    height: auto; 
+    transition: transform 0.3s;
+    cursor: grab;
+
+}
+/*image taille*/
+.image2 {
+    width: 100px;
+    height: auto; 
+}
+/*image taille*/
+.image3 {
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s;
+}
+/*Transformation de l'image quand on passe dessus*/
+.image3:hover {
+    transform: scale(1.2);
+    transform: rotate(15deg)
+}
+/*Transformation de l'image quand on passe dessus*/
+.image:hover {
+    transform: scale(1.2);
+
+}
+
+/* Conteneur des lgoo*/
+.containerlogo {
+    display: flex;
+    justify-content: center;
+}
+
+/*alignement et couelur h2*/
+.profile h2 {
+    color: red;
+    text-align: center;
+}
+
+
+/*couleur p*/
+.profile p {
+    color: #666;
+}
+
+/* placement map */
+.map {
+    display: flex;
+    position: absolute;
+    left: 65%;
+    bottom: 55%;
+
+}
+
+/* taille plan */ 
+.plan {
+    width: 400px;
+    height: 200px;
+}
+/* allignement dans footer */
+.footercontenue {
+    text-align: center;
+}
+
+/* footer */
+footer {
+    position: fixed;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}

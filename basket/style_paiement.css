@@ -1,0 +1,71 @@
+/* Réinitialisation des styles par défaut et définition de la police de caractères */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centrage vertical et horizontal des éléments dans le conteneur */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Hauteur égale à la hauteur de la fenêtre du navigateur */
+}
+
+/* Style de la fausse carte de crédit */
+.carte-credit {
+    margin-right: 20px;
+}
+
+.fausse-carte {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Style du numéro de carte */
+.numero-carte {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Style des informations supplémentaires de la carte */
+.infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style du formulaire de paiement */
+.formulaire-paiement {
+    max-width: 400px;
+}
+
+/* Style des champs de saisie texte dans le formulaire */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style du bouton de paiement */
+input[type="button"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Effet de survol sur le bouton de paiement */
+input[type="button"]:hover {
+    background-color: #0056b3;
+}

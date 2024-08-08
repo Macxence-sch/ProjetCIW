@@ -1,0 +1,133 @@
+/* Style général du corps */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(46, 93, 150);
+    color: #fff;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Style de la section supérieure */
+.top {
+    background-color: #fff;
+    color: black;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Style des tables */
+.tableautop {
+    text-align: center;
+    width: 100%;
+}
+
+/* Style pour les éléments actifs */
+.actif {
+    color: #1D428A;
+    font-size: 85%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+/* Style pour la navigation */
+#navi {
+    color: black;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+
+/* Style au survol des liens */
+a:hover {
+    color: #d5c31e;
+    text-decoration: wavy;
+}
+
+/* Style pour les conteneurs */
+.container {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les profils */
+.profile {
+    color: #1D428A;
+    text-align: center;
+}
+
+/* Style pour les titres de niveau 2 */
+h2 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Style pour les titres de niveau 3 */
+h3 {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Style pour les boutons */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style pour le pied de page */
+footer {
+    margin-top: 5%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style pour les réseaux sociaux dans le pied de page */
+.resauxex {
+    display: flex;
+    text-align: center;
+}
+
+/* Style pour les logos dans le pied de page */
+.logofooter {
+    width: 100px;
+    height: auto;
+}
+
+/* Style pour les logos des réseaux sociaux dans le pied de page */
+.logoresaux {
+    width: 5%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+/* Style au survol des logos des réseaux sociaux dans le pied de page */
+.logoresaux:hover {
+    transform: scale(1.1);
+}
+
+/* Style pour les images */
+.image {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}

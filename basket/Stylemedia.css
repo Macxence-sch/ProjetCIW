@@ -1,0 +1,300 @@
+
+
+/* Haut de Page */
+.top {
+  background-color: #fff;
+  color: black;
+  display: flex;
+  font-family:'Times New Roman', Times, serif;
+
+}
+/* tableau du header */
+.tableautop {
+  text-align: center;
+  width: 100%;
+}
+
+/* L'élément en bleu pour la page active */
+.actif {
+  color: #1D428A;
+  font-size: 85%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+/* le reste hors actif */
+#navi {
+  color: black;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+}
+
+
+/* passe en jaune, quand on passe avec la souris dessus */
+#navi:hover {
+  color:#d5c31e;
+  text-decoration:underline;
+}
+
+
+/* passe en jaune, quand on passe avec la souris dessus */
+.actif:hover {
+  color:#d5c31e;
+  text-decoration:underline;
+}
+
+/* Le titre */
+.premierh {
+  font-family: 'Times New Roman', Times, serif;
+  color: #FDB927;
+}
+
+
+/* Le corps */
+body {
+ 
+  background-color: aliceblue;
+  font-family :'Times New Roman', Times, serif;
+}
+
+
+/* Div du jeux */
+.jeuxdiv {
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+}
+
+
+/* div dans le div du jeux */
+.vrmjeux {
+text-align: center;
+flex-direction: column;
+
+}
+/* image du jeux */
+#imgjeux {
+width: 300px;
+height: 300px;
+border-radius: 5%;
+box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+
+}
+/* Div pour centrer le bouton */
+.pourcentrerbouton {
+display: flex;
+justify-content: center;
+}
+
+
+/* Changement graphique du bouton */
+#bouttonjeux {
+font-family:Georgia, 'Times New Roman', Times, serif ;
+width: 5%;
+color: #d5c31e;
+background-color: #1D428A;
+border-radius: 8%;
+box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* Changement du bouton quand on passe dessus */
+#bouttonjeux:hover {
+cursor: pointer;
+}
+
+/* L'album dans le media */
+.album {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+
+/* Les images dans l'album (changement)*/
+.photos {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+
+/* Les images dans l'album (taille)*/
+.photos img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Bouton prev */
+.prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1;
+}
+
+
+/* Bouton next */
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1;
+}
+/* Bouton prev placement */
+.prev {
+  left: 0;
+}
+/* Bouton next placement */
+.next {
+  right: 0;
+}
+
+/* pour taille image */ 
+.imagedef {
+  width: 400px;
+  height:  400px;
+}
+/* taille et placement video */ 
+.video {
+margin-top: 2.5%;
+display: flex;
+justify-content: space-around;
+}
+/* Caractéristique des h2*/ 
+h2 {
+font-size: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Caractéristique des h2*/
+h3 {
+font-size: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*  Div des autres sport */ 
+.autresport {
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+margin-top: 5%;
+
+}
+
+
+/* Tableau des autres sport */ 
+.tableauautre {
+margin-top: 2%;
+text-align: center;
+}
+
+
+/* image des autre sport */
+.imageautre {
+width: 400px;
+height: auto;
+border-radius: 5%;
+box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+transition: transform 0.3s;
+}
+
+
+/* Modification de l'image quand on passe dessus */ 
+.imageautre:hover {
+transform: scale(1.1);
+}
+
+
+/*Police dans le tableau */ 
+td {
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* Coloration en rouge des ecriture dans les <a> */ 
+a {
+color : crimson;
+text-decoration:solid;
+}
+
+/* Source bas de page */ 
+.source {
+display: flex;
+justify-content: center;
+margin-top: 2%;
+
+}
+
+.use {
+display: flex;
+margin-top: 3.5%;
+} 
+
+/* footer */ 
+footer {
+margin-top: 5%;
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px 0;
+bottom: 0;
+width: 100%;
+}
+
+
+/* logo resaux placement */ 
+.resauxex {
+display: flex;
+text-align: center;
+}
+
+/* notre logo taille */ 
+.logofooter {
+width: 100px;
+height: auto;
+}
+
+/* logo resaux taille */ 
+.logoresaux {
+width: 10%;
+height: auto;
+transition: transform 0.3s;
+}
+
+
+/* changement taille logo resaux */ 
+.logoresaux:hover {
+transform: scale(1.1);
+}
+
+
+
+/* div de pres */ 
+.pres {
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: #fff;
+width: 45%;
+padding: 40px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+}
